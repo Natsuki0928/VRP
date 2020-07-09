@@ -6,4 +6,6 @@
 
 gurobiによる線形計画緩和
 
-※github上で表示されない場合、https://nbviewer.jupyter.org/にURLを貼り付ける
+もし表示されなかったら
+https://nbviewer.jupyter.org/
+にURLを貼り付ける
