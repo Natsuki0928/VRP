@@ -1165,3 +1165,40 @@ Solution count 1: 304.949
 
 Optimal solution found (tolerance 1.00e-04)
 Best objective 3.049492010698e+02, best bound 3.049492010698e+02, gap 0.0000%
+Changed value of parameter DualReductions to 0
+   Prev: 1  Min: 0  Max: 1  Default: 1
+Changed value of parameter LazyConstraints to 1
+   Prev: 0  Min: 0  Max: 1  Default: 0
+Optimize a model with 155 rows, 2753 columns and 5506 nonzeros
+Variable types: 0 continuous, 2652 integer (0 binary)
+Semi-Variable types: 101 continuous, 0 integer
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+00]
+  Objective range  [2e+00, 9e+01]
+  Bounds range     [1e+00, 2e+00]
+  RHS range        [1e+00, 6e+00]
+Presolve removed 102 rows and 152 columns
+Presolve time: 0.02s
+Presolved: 53 rows, 2601 columns, 5202 nonzeros
+Variable types: 0 continuous, 2601 integer (2500 binary)
+Found heuristic solution: objective 1496.1258999
+
+Root relaxation: objective 3.793623e+02, 94 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0     379.3622818  379.36228  0.00%     -    0s
+
+Cutting planes:
+  Lazy constraints: 1
+
+Explored 0 nodes (94 simplex iterations) in 0.14 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 379.362 1496.13 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.793622817604e+02, best bound 3.793622817604e+02, gap 0.0000%
+Changed value of parameter Timelimit to 3600.0
+   Prev: 1e+100  Min: 0.0  Max: 1e+100  Default: 1e+100
